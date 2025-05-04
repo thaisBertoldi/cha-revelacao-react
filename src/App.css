@@ -43,6 +43,8 @@ body::before {
   font-size: 10rem;
   color: #333;
   z-index: 1;
+  display: flex;
+  gap: 15px;
 }
 
 .letter {
@@ -168,7 +170,7 @@ body::before {
   animation: grow 1.5s ease-in-out forwards;
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   body {
     font-size: 14px;
     text-align: center;

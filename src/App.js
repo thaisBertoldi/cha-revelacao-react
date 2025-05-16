@@ -59,7 +59,7 @@ function App() {
             currentIndex++;
             setTimeout(animateLetter, 200);
           }
-        }, 100);
+        }, 200);
 
         intervalsRef.current.push(intervalId);
       }
